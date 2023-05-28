@@ -35,7 +35,7 @@ body{
 .row {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+
   background: #edeef0;
   border-radius: 30px;
   padding-left: 30px;
