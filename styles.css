@@ -12,10 +12,11 @@ body{
 .container {
   width: 100%;
   min-height: 100vh;
+  
 }
 .todo-app {
  width: 100%;
-  max-width: 640px;
+  max-width: 400px;
   background-color: rgb(255, 255, 255);
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
@@ -34,18 +35,19 @@ body{
 .row {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-around;
   background: #edeef0;
   border-radius: 30px;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-bottom: 25px;
+  margin-right: 5px;
 }
-input {   
+input {
+  flex: 1;
   border: none;
   outline: none;
   background: transparent;
   padding:10px;
-  font-size: 16px;;
 }
 button {
   border: none;
