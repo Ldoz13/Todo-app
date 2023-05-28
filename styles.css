@@ -35,12 +35,12 @@ body{
 .row {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content:space-between;
   background: #edeef0;
   border-radius: 30px;
   padding-left: 30px;
   margin-bottom: 25px;
-  margin-right: 5px;
+  margin-right: 16px;
 }
 input {
   flex: 1;
@@ -48,6 +48,7 @@ input {
   outline: none;
   background: transparent;
   padding:10px;
+  font-size: 16px;
 }
 button {
   border: none;
