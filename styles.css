@@ -35,7 +35,7 @@ body{
 .row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-around;
   background: #edeef0;
   border-radius: 30px;
   padding-left: 20px;
@@ -51,7 +51,7 @@ input {
 button {
   border: none;
   outline: none;
-  padding: 16px 50px;
+  padding: 16px 32px;
   border-radius: 30px;
   background-color: #ff5845;
   color: #fff;
