@@ -38,7 +38,7 @@ body{
   justify-content:space-around;
   background: #edeef0;
   border-radius: 30px;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-bottom: 25px;
   margin-right: 5px;
 }
@@ -47,7 +47,7 @@ input {
   border: none;
   outline: none;
   background: transparent;
-  padding: 10px;
+  padding:10px;
 }
 button {
   border: none;
