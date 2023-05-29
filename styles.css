@@ -6,7 +6,8 @@
   
 }
 body{
-  background: radial-gradient(circle farthest-corner at 10% 20%, rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3%);
+  background-image: url(./icons/bg.png);
+  background-size: cover;
 }
 
 .container {
@@ -21,10 +22,9 @@ body{
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
-  background-color:  rgba( 255,255,255, 0.3); 
-  backdrop-filter: blur(5px);
+  background-color:  rgba( 255,255,255, 0.5); 
+  backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba( 255,255,255, 0.5); 
   
 }
 .todo-app h2 {
@@ -78,6 +78,7 @@ ul li {
   user-select: none;
   cursor: pointer;
   position: relative;
+  color: #555;
 }
 ul li::before{
   content: "";
