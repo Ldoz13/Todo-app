@@ -6,8 +6,7 @@
   
 }
 body{
-  background-image: url(./icons/bg.png);
-  background-size: cover;
+  background-colour: #ff5845;
 }
 
 .container {
